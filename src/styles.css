@@ -234,6 +234,7 @@ h6,h7{line-height:1.6}*{font-family:system-ui,-apple-system,BlinkMacSystemFont,'
 }
 
 @media only screen and (max-width: 530px) {
+    .navbar img{width: 130px !important;}
     .select-container.select2{display: none!important;}
     .section-1 .title-container {height: 30%;}
     .section-1 .title-container h1{font-size: 2rem;}
