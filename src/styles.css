@@ -152,7 +152,7 @@ h6,h7{line-height:1.6}*{font-family:system-ui,-apple-system,BlinkMacSystemFont,'
     flex-direction: column;
     position: fixed;
     padding: 2rem;
-    z-index: 4;
+    z-index: 5;
     bottom: 0;
     border: 1px solid #000;
     border-radius: 15px 15px 0 0;
@@ -167,6 +167,16 @@ h6,h7{line-height:1.6}*{font-family:system-ui,-apple-system,BlinkMacSystemFont,'
     display: flex;
     animation: wipe-in-up 0.5s ease forwards;
 }
+
+.overlay-menu.active{
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    width: 100dvw;
+    background-color: #00000080;
+} 
 
 @keyframes wipe-in-up {
     from {
