@@ -61,3 +61,29 @@ input:focus {
 select:focus{
     outline: none;
 }
+.skill-marquee-container{
+    overflow: hidden;
+}
+.marquee {
+    display: flex;
+    justify-content: space-between;
+    animation: scroll 30s linear infinite;
+
+}
+
+.marquee img {
+    width: auto;
+    height: 60px;
+
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(5%);
+    }
+    100% {
+        transform: translateX(-170%);
+    }
+}
+
+
