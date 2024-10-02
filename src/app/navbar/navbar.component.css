@@ -80,3 +80,16 @@
 .hamburger.active span:nth-child(3) {
     transform: rotate(-45deg) translate(11px, -3px);
 }
+.menu-modal a{
+    display: flex;
+    align-items: center;
+}
+.menu-modal a span{
+    font-size: 20px;
+    margin: 0 1rem;
+    font-weight: 600;
+}
+.menu-modal a img{
+    width: 30px;
+    height: auto;
+}

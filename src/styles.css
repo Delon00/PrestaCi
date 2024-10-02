@@ -148,6 +148,8 @@ h6,h7{line-height:1.6}*{font-family:system-ui,-apple-system,BlinkMacSystemFont,'
 
 .menu-modal{
     display: none;
+    justify-content: space-around;
+    flex-direction: column;
     position: fixed;
     padding: 2rem;
     z-index: 4;
@@ -157,12 +159,12 @@ h6,h7{line-height:1.6}*{font-family:system-ui,-apple-system,BlinkMacSystemFont,'
     width: 90%;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 60%;
+    height: 50%;
     animation: wipe-out-down 0.5s ease forwards;
 }
 
 .menu-modal.active{
-    display: block;
+    display: flex;
     animation: wipe-in-up 0.5s ease forwards;
 }
 
@@ -249,4 +251,6 @@ h6,h7{line-height:1.6}*{font-family:system-ui,-apple-system,BlinkMacSystemFont,'
     .navbar.scrolled{width: 91%!important;}
     .section-1 .card-grid { gap: 1rem; padding: 1rem 0rem; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));}
     .section-1 .card-grid .card{height: 270px; width: 160px;}
+    .login-main .left{display: none;}
+    .login-main{padding: 2rem !important;}
 }

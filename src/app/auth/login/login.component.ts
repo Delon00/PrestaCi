@@ -1,9 +1,13 @@
-import { Component } from '@angular/core';
+
+import { Component, HostListener, OnInit } from '@angular/core';
+import { CommonModule,  } from '@angular/common';
+import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
+import { NavbarComponent } from '../../navbar/navbar.component';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [],
+  imports: [NavbarComponent, CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })

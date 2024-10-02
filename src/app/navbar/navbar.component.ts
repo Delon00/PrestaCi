@@ -14,7 +14,19 @@ export class NavbarComponent {
   isScrolled = false;
   isMenuOpen = false;
 
-  toggleMenu() {this.isMenuOpen = !this.isMenuOpen;}
+  toggleMenu() {
+    const modal = document.querySelector('.menu-modal') as HTMLElement;
+    if (this.isMenuOpen) {
+      modal.style.animation = 'wipe-out-down 0.5s ease forwards';
+      modal.addEventListener('animationend', () => {
+        modal.style.display = 'none';
+      }, { once: true });
+    } else {
+      modal.style.display = 'flex';
+      modal.style.animation = 'wipe-in-up 0.5s ease forwards';
+    }
+    this.isMenuOpen = !this.isMenuOpen;
+  }
   constructor() {}
 
   ngOnInit(): void {}
