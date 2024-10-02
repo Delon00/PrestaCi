@@ -82,7 +82,7 @@ select:focus{
         transform: translateX(5%);
     }
     100% {
-        transform: translateX(-170%);
+        transform: translateX(-100%);
     }
 }
 
