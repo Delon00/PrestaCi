@@ -16,7 +16,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
-    
+    transition: all 0.3s ease-in-out;
     
 }
 .login-main .right{
@@ -34,10 +34,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.login-main .right a{
-    color: #14C0B7;
-    font-weight: bold;
-}
+
 .form-inputs{
     display: flex;
     flex-direction: column;
@@ -48,10 +45,37 @@
     border: 1px solid #000;
     padding: 0.5rem 1rem;
     margin-bottom: 1.5rem;
+    transition: all 0.3s ease-in-out;
+
 }
 form{
     width: 100%;
 }
 form button{
     width: 100%;
+}
+.text-forget-mdp{
+    color: #14C0B7;
+    font-weight: bold;
+    font-size: 15px;
+}
+.register-text{
+    font-size: 14px;
+}
+.register-text a{
+    font-size: 14px;
+    color: #14C0B7;
+    font-weight: bold;
+}
+.remember-me-container{
+    display: flex;
+    align-items: center;
+}
+.remember-me-container input{
+    width: 17px;
+    height: 17px;
+    margin-right: 0.5rem;
+}
+.remember-me-container label{
+    font-size: 14px;
 }

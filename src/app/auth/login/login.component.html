@@ -16,18 +16,17 @@
                     <label class="font-semibold mb-1" for="password">Mot de passe</label>
                     <input type="password" name="password" id="password" placeholder="********">
                 </div>
-                <div class="flex justify-between mb-6">
-                    <div class="flex items-center">
+                <div class="flex justify-between items-center mb-6">
+                    <div class="remember-me-container">
                         <input type="checkbox" name="remember" id="remember">
                         <label for="remember">Se souvenir de moi</label>
-
                     </div>
-                    <a href="http://">Mot de passe oublié</a>
+                    <a class="text-forget-mdp" href="http://">Mot de passe oublié</a>
                 </div>
                 <button class="btn-link btn-submit" type="submit">Se connecter</button>
             </form>
         </div>
-        <p style="font-size: 13px;">Vous n'etes pas encore inscris ? <a routerLink="/register">inscrivez vous</a ></p>
+        <p class="register-text">Vous n'etes pas encore inscris ? <a routerLink="/register">inscrivez vous</a ></p>
 
     </section>
 </main>
