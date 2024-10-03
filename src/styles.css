@@ -271,4 +271,15 @@ h6,h7{line-height:1.6}*{font-family:system-ui,-apple-system,BlinkMacSystemFont,'
     .login-main .left{display: none;}
     .login-main{padding: 2rem !important;}
     .login-main  .right{padding: 1rem !important;}
+    .hero{padding-left: 1rem; padding-right: 1rem;}
+
+    .marquee {animation: scroll 10s linear infinite !important;}
+    @keyframes scroll {
+        0% {
+            transform: translateX(1%);
+        }
+        100% {
+            transform: translateX(-211%);
+        }
+    }
 }
