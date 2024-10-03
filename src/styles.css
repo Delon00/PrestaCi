@@ -270,4 +270,5 @@ h6,h7{line-height:1.6}*{font-family:system-ui,-apple-system,BlinkMacSystemFont,'
     .section-1 .card-grid .card{height: 270px; width: 160px;}
     .login-main .left{display: none;}
     .login-main{padding: 2rem !important;}
+    .login-main  .right{padding: 1rem !important;}
 }
