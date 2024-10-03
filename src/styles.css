@@ -258,7 +258,7 @@ h6,h7{line-height:1.6}*{font-family:system-ui,-apple-system,BlinkMacSystemFont,'
     .section-1 .card-grid .card-title{font-size:1rem;}
     .section-1 .card-grid { gap: 1rem; padding: 1rem 0rem; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));}
     .section-1 .card-grid .card{height: 270px; width: 150px;}
-    .login-main .right h1{font-size: 18px;}
+    .login-main .right h1{font-size: 22px !important;}
 }
 
 @media only screen and (max-width: 480px) {

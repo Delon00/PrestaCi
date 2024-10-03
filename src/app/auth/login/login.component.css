@@ -67,6 +67,7 @@ form button{
     font-size: 14px;
     color: #14C0B7;
     font-weight: bold;
+    text-align: center;
 }
 .remember-me-container{
     display: flex;
