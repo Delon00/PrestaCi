@@ -58,6 +58,7 @@ form button{
     color: #14C0B7;
     font-weight: bold;
     font-size: 15px;
+    text-align: right;
 }
 .register-text{
     font-size: 14px;
