@@ -1,6 +1,5 @@
-
-import { Component, HostListener, OnInit } from '@angular/core';
 import { CommonModule,  } from '@angular/common';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 import { NavbarComponent } from '../../navbar/navbar.component';
 
