@@ -28,7 +28,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     }
-.login-main .right span{
+.login-main .right a{
     color: #14C0B7;
     font-weight: bold;
 }

@@ -61,28 +61,39 @@ input:focus {
 select:focus{
     outline: none;
 }
-.skill-marquee-container{
+.skill-marquee-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.skill-marquee-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
     overflow: hidden;
 }
+
 .marquee {
     display: flex;
-    justify-content: space-between;
-    animation: scroll 30s linear infinite;
-
+    animation: scroll 10s linear infinite;
 }
 
 .marquee img {
     width: auto;
     height: 60px;
-
+    margin-right: 20px;
 }
 
 @keyframes scroll {
     0% {
-        transform: translateX(5%);
+        transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-130%);
     }
 }
 

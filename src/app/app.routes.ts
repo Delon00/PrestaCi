@@ -4,7 +4,7 @@ import {PageNotFoundComponent} from './page-not-found-component/page-not-found-c
 import {ServicesComponent} from './services/services.component';
 import { HomeComponent } from './home/home.component';
 import { DashboardComponent } from './auth/dashboard/dashboard.component';
-//import {RegisterComponent} from './auth/register/register.component';
+import {RegisterComponent} from './auth/register/register.component';
 
 
 export const routes: Routes = [
@@ -13,6 +13,6 @@ export const routes: Routes = [
     { path: 'login', component: LoginComponent },
     { path: 'services', component: ServicesComponent },
     { path: 'dashboard', component: DashboardComponent},
-  //{ path: 'register', component: RegisterComponent },
+    { path: 'register', component: RegisterComponent },
     { path: '**', component: PageNotFoundComponent },
 ];
