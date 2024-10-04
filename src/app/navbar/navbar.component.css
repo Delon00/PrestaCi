@@ -6,7 +6,7 @@
     padding: 1rem 1.5rem;
     position: absolute;
     width: 100%;
-    transition: all 0.3s ease-in-out; /* Ajout de la transition */
+    transition: all 0.3s ease-in-out;
 }
 
 .navbar.scrolled {
@@ -21,7 +21,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 85%;
-    transition: all 0.3s ease-in-out; /* Ajout de la transition */
+    transition: all 0.3s ease-in-out;
 }
 .navbar img{
     width: 200px;
